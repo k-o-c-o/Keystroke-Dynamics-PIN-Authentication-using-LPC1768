@@ -1,0 +1,32 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Participant timing data, raw UART logs, and trained biometric models
+data/*.csv
+data/raw/
+models/*
+!models/.gitkeep
+demo_logs/
+wheels/
+
+# Keil outputs and machine-specific options
+keil/*.axf
+keil/*.hex
+keil/*.o
+keil/*.d
+keil/*.crf
+keil/*.map
+keil/*.lnp
+keil/*.lst
+keil/*.dep
+keil/*.build_log.htm
+keil/*.htm
+keil/*.tra
+keil/*.uvgui.*
+keil/*.uvopt
+keil/*.bak
+.DS_Store
